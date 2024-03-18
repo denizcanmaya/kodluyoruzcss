@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 90%;
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* Header */
+
+#header {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: chocolate;
+}
+
+#header h1 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.main-nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.main-nav ul li {
+    padding-left: 1.5rem;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+.container {
+    background-color: rgba(210, 105, 30, 0.199);
+    min-height: 100vh;
+}
+
+
+ /* home */
+
+.home {
+    padding-top: 3rem;
+    text-align: center;
+
+}
+.home h1 {
+    font-size: 5rem;
+}
+
+.home h2 {
+    font-weight: 300;
+}
+
+
+/* about */
+
+.about {
+padding-top: 3rem;
+text-align: center;
+}
+
+.about h1 {
+    font-size: 3rem;
+}
+
+.about h2 {
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.about p {
+    max-width: 60%;
+    margin: auto;
+}
+/* Gallery */
+
+.baslik h1 {
+    text-align: center;
+    padding-top: 3rem;
+    font-size:2rem;
+}
+.baslik h2 {
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 3rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.gallery img {
+    border: 2px solid;
+    width: 300px;
+}
+
+/* Button */
+
+.btn {
+    margin-top: 1.5rem;
+    border-radius: 0.6rem;
+    padding: 0.7rem 2.3rem;
+    border: none;
+    background-color: black;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: chocolate;
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+}
